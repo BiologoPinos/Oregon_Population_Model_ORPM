@@ -1,60 +1,68 @@
-# OR_trophic_model
+# Oregon_Population_Model_ORPM
 
-<<<<<<< HEAD
-The project contained in this repository derived from Andrés Pinos-Sánchez master thesis research _Trophic Modeling of Oregon’s Kelp Forest: Implications for Community Dynamics and Management Scenarios_
-done at Oregon State University. The following contains a mix matrix trophic model developed in **MathLab** that simulates Oregon (OR, USA) near shore reef's dynamics of bull kelp forests, sea urchins, 
-and associated species (e.g. sea otters & dungeness crab) under different management scenarios. Specifically, this study seeks to assess:
-* How kelp forests responds to urchin culling and kelp restoration efforts.
-* Assess the potential impacts of sea otter reintroduction on urchin, kelp, and Dungeness crab populations.
+The Oregon Population Model (ORPM) is a spatially implicit, stage- and age-structured model of a shallow rocky-reef kelp forest ecosystem. The model explicitly represented the population dynamics of bull kelp (*Nereocystis luetkeana*), sea urchins (*Strongylocentrotus purpuratus* and *Mesocentrotus franciscanus*), and Dungeness crabs (*Metacarcinus magister*), and linked these species and their dynamics to a sea otter (*Enhydra lutris*) predation model.
 
-This model is a sister branch of a California trophic model developed by [Hopf et al., 2025](https://www.biorxiv.org/content/10.1101/2025.01.30.634607v1.abstract?%3Fcollection=).
-Hopf's original model (code) was here addapted for an OR system, species and specific questions. Additionally and in order to keep connectivity between both CA and OR models, the same syntax and structured was mantained in this code; california and giant kelp parts are still contained in the code but have been turned off ***expand and better explain this part***...  **NOTE: read cheat sheets and all documentation in order to use code properly**
+This model was developed as part of **Andrés Pinos-Sánchez** MSc. thesis research at Oregon State University. We used this model to evaluate the potential effects of sea otter reintroduction and alternative management interventions on two primary response variables: kelp persistence and fishable Dungeness crab biomass density. Kelp persistence was the proportion of stochastic replicates that remained in a kelp-forest state through the duration of our simulated time period, whereas fishable crab biomass density was the biomass of male crabs old enough to be captured by our simulated fishery. All analyses were conducted in MATLAB R2025a (The MathWorks, Inc 2025).
 
-## Model and & model structure
-**add a more detailed description**
+- Scientific Publication: [insert link]
+- Thesis Manuscript: [Modeling the effects of sea otter (Enhydra lutris) reintroduction and management strategies on bull kelp (Nereocystis luetkeana) persistence and the Dungeness crab (Metacarcinus magister) fishery](https://ir.library.oregonstate.edu/concern/graduate_thesis_or_dissertations/kd17d2904).
 
-## Sub folders
-### [Code](https://github.com/BiologoPinos/OR_trophic_model/tree/Bull_Kelp_recruitment_Lag/Code), contains all scripts for the main model, runs, and parameters, as well as inputs and outputs
+This mdoel works as a sister project/branch of a California trophic model developed by [Hopf et al., 2025](https://conbio.onlinelibrary.wiley.com/doi/10.1111/conl.13130). Hopf's original model (code) was designed to represent symilar dynamics to the ones presented here, but for a California, USA, giant kelp (Macrocystis pyrifera) system. Here we used the same language and sytax to Hopf et al.  
 
-## Cheat sheets
-The following section contains the documentation that backs-up the model coding framework both for parameter values and mathematical framwork being used. **Note** how there are two cheat sheets, one for bull kelp and one for giant kelp 
+For detailed information about our ORPM model, equations, parameters, and assumptionss please refere to our [Supplementary_Document](insert link).
 
-**Oregon system trophic model**;
-[Nereocystis_cheat_sheet](https://github.com/BiologoPinos/OR_trophic_model/blob/Bull_Kelp_recruitment_Lag/Nereocystis_cheat_sheet.pdf)
-* SPP: Nereocystis luetkeana (bull kelp), sea otters, red & purple sea urchins, dungeness crab
-* Management scenarios: predator reintroduction (e.g. sea otter), urchin culling, kelp restoration (AKA seeding, reforestation)
-* No heat wave
-* No MPAs
+## Directory
 
-**California system trophic mdoel**;
-[Macrocystis_cheat_sheet](https://github.com/BiologoPinos/OR_trophic_model/blob/Bull_Kelp_recruitment_Lag/Macrocystis_cheat_sheet.pdf)
-* SPP: Macrocystis pyrifera (giant kelp), sheephead, red & purple sea urchins
-* Management scenarios: fishery clousure, urchin culling, kelp restoration (AKA seeding, reforestation)
-* Heat wave
-* MPAs
+- [Code](https://github.com/BiologoPinos/Oregon_Population_Model_ORPM/tree/ORPM_Thesis_Final/Code) - All scripts and subdirectories for the model.
+  - *ORTM_model_otter.m* - Master code.
+  - *ORTM_plotting.m* - Plotting fucntions.
+- [Model Inputs](https://github.com/BiologoPinos/Oregon_Population_Model_ORPM/tree/ORPM_Thesis_Final/Code/Model%20inputs) - Sea Otter timeseries from [ORSO](https://www.elakhaalliance.org/wp-content/uploads/2023/03/AppenA-RestoreOtterstoOR-digital.pdf).
+- [Model Outputs](https://github.com/BiologoPinos/Oregon_Population_Model_ORPM/tree/ORPM_Thesis_Final/Code/Model%20outputs) - Model results.
+- [Data & Data_Exploration](https://github.com/BiologoPinos/Oregon_Population_Model_ORPM/tree/ORPM_Thesis_Final/Code/data%20%26%20data_exploration) - Supplementary data.
+- [Functions](https://github.com/BiologoPinos/Oregon_Population_Model_ORPM/tree/ORPM_Thesis_Final/Code/functions) - Code + Equations that run the model.
 
 
 ## Authors
-Andrés Pinos-Sánchez*
 
-Jess Hopf (o.g. code developer for CA model, see [_Short-term management of kelp forests for marine heatwaves requires pre-emptive action_](https://www.biorxiv.org/content/10.1101/2025.01.30.634607v1.abstract?%3Fcollection=))
+Andrés Pinos-Sánchez; https://orcid.org/0000-0002-8292-3575
 
-Leif Rasmuson 
+Jess K. Hopf; https://orcid.org/0000-0003-2207-2366
 
-Mark Novak
+Leif K. Rasmuson; https://orcid.org/0000-0001-7685-2427
 
-Will White
+Mark Novak; https://orcid.org/0000-0002-7881-4253
+
+J. Wilson White; https://orcid.org/0000-0003-3242-2454
+
+
+## Citation
+
+### Scientific Article
+Insert citation to paper
+
+### MSc. Thesis
+Pinos-Sánchez, Andrés. 2026. “Modeling the effects of sea otter (*Enhydra lutris*) reintroduction and management strategies on bull kelp (*Nereocystis luetkeana*) persistence and the Dungeness crab (*Metacarcinus magister*) fishery.” Oregon State University.
+
 
 ## Funding
+
+This work was supported by the Oregon Ocean Science Trust (project #5: HB5202) and the California Ocean Protection Council (agreement C0874012). Andrés Pinos-Sánchez was also supported by the H. Richard Carlson Scholarship
+
 
 ## Warranty 
 All code is provided "as it" and without warranty
 
-## Contact
-Be kind or I'll cry... andres.pinos.sanchez@gmail.com
-=======
-This branch aims to modify the California model into an Oregon kelp system
 
->>>>>>> Oregon_system
+## Summary Views
 
-(add more)
+### Process Model Illustration
+<img width="9590" height="4653" alt="ORPM_Full_Moddel" src="https://github.com/user-attachments/assets/a832b2cb-c4fc-4e53-88ff-972e5b5d55d9" />
+
+### Kelp Persistence (continuous)
+<img width="3168" height="2681" alt="Kelp_Persistense_Results2" src="https://github.com/user-attachments/assets/d1f7aacc-71dc-482b-923a-3ac57e022468" />
+
+### Kelp Persistence (periodic)
+<img width="3160" height="2681" alt="Kelp_Persistense_Periodic_Results2" src="https://github.com/user-attachments/assets/be7b7f6f-0494-4b5b-86d2-b94086b9fab8" />
+
+### Fishable Crab Densities
+<img width="3146" height="1835" alt="Crab_Fishable_Densities" src="https://github.com/user-attachments/assets/413784a1-ba45-4282-a2ed-99f51381bd6b" />
