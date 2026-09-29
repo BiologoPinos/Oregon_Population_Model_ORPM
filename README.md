@@ -2,6 +2,8 @@
 
 The Oregon Population Model (ORPM) is a spatially implicit, stage- and age-structured model of a shallow rocky-reef kelp forest ecosystem. The model explicitly represented the population dynamics of bull kelp (*Nereocystis luetkeana*), sea urchins (*Strongylocentrotus purpuratus* and *Mesocentrotus franciscanus*), and Dungeness crabs (*Metacarcinus magister*), and linked these species and their dynamics to a sea otter (*Enhydra lutris*) predation model.
 
+<img width="9590" height="4653" alt="ORPM_Full_Moddel" src="https://github.com/user-attachments/assets/a832b2cb-c4fc-4e53-88ff-972e5b5d55d9" />
+
 This model was developed as part of **Andrés Pinos-Sánchez** MSc. thesis research at Oregon State University. We used this model to evaluate the potential effects of sea otter reintroduction and alternative management interventions on two primary response variables: kelp persistence and fishable Dungeness crab biomass density. Kelp persistence was the proportion of stochastic replicates that remained in a kelp-forest state through the duration of our simulated time period, whereas fishable crab biomass density was the biomass of male crabs old enough to be captured by our simulated fishery. All analyses were conducted in MATLAB R2025a (The MathWorks, Inc 2025).
 
 - Scientific Publication: [insert link]
@@ -54,9 +56,6 @@ All code is provided "as it" and without warranty
 
 
 ## Summary Views
-
-### Process Model Illustration
-<img width="9590" height="4653" alt="ORPM_Full_Moddel" src="https://github.com/user-attachments/assets/a832b2cb-c4fc-4e53-88ff-972e5b5d55d9" />
 
 ### Kelp Persistence (continuous)
 <img width="3168" height="2681" alt="Kelp_Persistense_Results2" src="https://github.com/user-attachments/assets/d1f7aacc-71dc-482b-923a-3ac57e022468" />
