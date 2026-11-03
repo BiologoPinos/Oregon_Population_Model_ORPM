@@ -1,6 +1,6 @@
 # Oregon_Population_Model_ORPM
 
-The Oregon Population Model (ORPM) is a spatially implicit, stage- and age-structured model of a shallow rocky-reef kelp forest ecosystem. The model explicitly represented the population dynamics of bull kelp (*Nereocystis luetkeana*), sea urchins (*Strongylocentrotus purpuratus* and *Mesocentrotus franciscanus*), and Dungeness crabs (*Metacarcinus magister*), and linked these species and their dynamics to a sea otter (*Enhydra lutris*) predation model.
+The Oregon Population Model (ORPM) is a spatially implicit, stage- and age-structured model of a shallow rocky-reef kelp forest ecosystem. The model explicitly represented the population dynamics of bull kelp (*Nereocystis luetkeana*), sea urchins (*Strongylocentrotus purpuratus*), and Dungeness crabs (*Metacarcinus magister*), and linked these species and their dynamics to a sea otter (*Enhydra lutris*) predation model.
 
 <img width="9590" height="4653" alt="ORPM_Full_Moddel" src="https://github.com/user-attachments/assets/a832b2cb-c4fc-4e53-88ff-972e5b5d55d9" />
 
